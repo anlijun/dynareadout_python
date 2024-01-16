@@ -18,7 +18,7 @@ else:
     c_args.append("-ansi")
     c_args.append("-w")
     link_args.append("-lpthread")
-    link_args.append("-lstdc++fs")
+    #link_args.append("-lstdc++fs")
 
 ext_libraries = [[
     'dynareadout_c', {
